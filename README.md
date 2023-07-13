@@ -1,0 +1,1 @@
+# Simple-ocr-wechat-applet-implementation
