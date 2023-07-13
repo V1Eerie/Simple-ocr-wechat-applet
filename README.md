@@ -4,5 +4,5 @@
 
 作为微信小程序的小作业，本人主要完成了前端界面和js异步api调用以及后端部署。
 # 0x01 主界面截图
-![主界面](https://github.com/V1Eerie/Simple-ocr-wechat-applet-implementation/blob/main/images/shouye.png)
-![我的](https://github.com/V1Eerie/Simple-ocr-wechat-applet-implementation/blob/main/images/wode.png)
+![主界面](https://github.com/V1Eerie/Simple-ocr-wechat-applet/blob/main/images/shouye.png)
+![我的](https://github.com/V1Eerie/Simple-ocr-wechat-applet/blob/main/images/wode.png)
