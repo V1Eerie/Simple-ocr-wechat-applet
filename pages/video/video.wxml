@@ -1,0 +1,5 @@
+<view class="page-body">
+    <view class="page-section">
+        <video id="myVideo" src="https://www.implementsfreedom.tech/d/video.mp4"></video>
+    </view>
+</view>

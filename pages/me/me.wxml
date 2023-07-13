@@ -1,0 +1,63 @@
+<!-- 顶部状态栏 -->
+<view class="bar-box" style="height: {{navBarHeight}}px;">
+    <view class="level" style="margin-top: {{barHeight}}px;">
+        <view class="level bar" bindtap="headClick" wx:if="{{show}}">
+            <image class="top-head" src="/images/face.png" mode="widthFix"></image>
+            <view class="welcome">
+                <text class="nick">Jackson</text>
+            </view>
+        </view>
+        <view class="bar-title" wx:else>个人中心</view>
+    </view>
+</view>
+<view class="head-box" style="padding-top: {{navBarHeight+20}}px;">
+    <view class="level" bindtap="headClick">
+        <image class="top-head" src="/images/face.png" mode="widthFix"></image>
+        <view class="level head-right">
+            <view class="welcome">
+                <text class="nick" style="font-size: 30rpx;">Jackson</text>
+            </view>
+            <view class="level set-center">已认证</view>
+        </view>
+    </view>
+    <view class="level share-box" bindtap="detailClick">
+        <view>
+            <view class="money">
+                <text>积分</text>
+                <text class="money-text">{{jf}}</text>
+            </view>
+            <view class="share-text">小手点一点 积分加一加</view>
+        </view>
+        <view class="share-btn">{{text}}</view>
+    </view>
+</view>
+
+<!-- 二级菜单 -->
+<view class="level tab-box">
+    <block wx:for="{{tabList}}" wx:for-index="index" wx:for-item="item" wx:key="item">
+        <view class="tab-list" bindtap="tabClick" data-item="{{item}}">
+            <image class="tab-img" src="{{item.src}}" mode="widthFix"></image>
+            <view class="tab-text">{{item.title}}</view>
+        </view>
+    </block>
+</view>
+<view class="white-box">
+    <button open-type="share" class="row" style="width: 100%;">
+        <view class="left">
+            <icon type="success" size="16" color="#2979ff"></icon>
+            <text class="text">分享好友</text>
+        </view>
+        <image class="right" src="/images/share.png" mode="widthFix"></image>
+    </button>
+</view>
+<view class="white-box">
+    <button class="row" style="width: 100%;border-bottom: none;">
+        <view class="left">
+            <icon type="success" size="16" color="#2979ff"></icon>
+            <text class="text">当前版本</text>
+        </view>
+        <view class="right" style="text-align: center;">1.0</view>
+    </button>
+</view>
+<view class="copy">
+</view>

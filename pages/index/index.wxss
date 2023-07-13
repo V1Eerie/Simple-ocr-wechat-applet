@@ -1,0 +1,44 @@
+button {
+    margin-top: 15rpx;
+    margin-bottom: 15rpx;
+    background-color: #999999;
+}
+
+image {
+    display: block;
+    margin: 0 auto;
+}
+
+.button-sp-area {
+    margin: 0 auto;
+    margin-bottom: 0%;
+    width: 60%;
+}
+
+
+textarea {
+    width: 700rpx;
+    padding: 25rpx 0;
+}
+
+.textarea-wrp {
+    padding: 0 25rpx;
+    background-color: #fff;
+}
+
+.page-section {
+    width: 100%;
+    margin-bottom: 60rpx;
+}
+
+.page-section:last-child {
+    margin-bottom: 0;
+}
+
+.page-section-title {
+    font-size: 28rpx;
+    color: #999999;
+    margin-bottom: 10rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+}

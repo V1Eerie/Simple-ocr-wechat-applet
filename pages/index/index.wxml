@@ -1,0 +1,18 @@
+<view class="page-body">
+    <view class="pix" style="flex-direction:column;">
+        <image id="img" src="{{src}}" mode="aspectFit"></image>
+    </view>
+    <view class="button-sp-area">
+        <button type="primary" plain="true" catchtap="chooiseimg">选择图片</button>
+        <button type="{{type}}" plain="true" disabled="{{flag}}" catchtap="OcrStart" loading="{{loading}}" disabled="{{loading}}">开始OCR识别</button>
+    </view>
+
+    <block wx:if="{{show}}">
+        <view class="page-section">
+            <view class="page-section-title">识别结果</view>
+            <view class="textarea-wrp">
+                <textarea auto-height value="{{str}}" maxlength="-1" />
+            </view>
+        </view>
+    </block>
+</view>
